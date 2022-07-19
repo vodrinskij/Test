@@ -1,0 +1,205 @@
+#footer{
+	position: absolute;
+	width: 100%;
+	height: 243px;
+	margin: 0px, auto;
+	left: auto;
+	top: 8203px;
+}
+
+#Rectangle {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1920px){
+	#Rectangle {
+		max-width: 970px;
+	}
+}
+
+@media (max-width: 992px){
+	#Rectangle {
+		max-width: 750px;
+	}
+}
+
+@media (max-width: 767px){
+	#Rectangle{
+		max-width: none;
+	}
+}
+
+/* Контакти */
+#Contacts {
+position: absolute;
+width: 25%;
+height: 86px;
+left: 15%;
+top: 36px;
+
+display: block;
+padding: 0px;
+}
+
+/* Контакти */
+#Contact {
+width: 24%;
+height: 36px;
+margin: 0 76% 58% 0;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+#ContactsInner {
+position: absolute;
+width: 100%;
+height: 50px;
+top: 36px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-center;
+padding: 0px;
+}
+/* 067 431 19 21 */
+#Tel {
+width: 34%;
+height: 50px;
+left: 66%;
+top: 36px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 28px;
+line-height: 120%;
+
+/* or 50px */
+
+color: #05003E;
+}
+
+
+/* Ita.in.ua@gmail.com */
+#Ita {
+width: 47%;
+height: 50px;
+left: 0%;
+top: 36px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 28px;
+line-height: 120%;
+
+/* or 50px */
+
+color: #05003E;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#menu {
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 18%;
+height: 33px;
+left: 68%;
+right: 15%;
+top: 40px;
+}
+
+/* Спеціалізації */
+#Special {
+width: 7%;
+height: 33px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 33px;
+text-decoration: none;
+
+color: #05003E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Партнери */
+#Partners {
+width: 5%;
+height: 31px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+text-decoration: none;
+/* identical to box height */
+
+color: #05003E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#Dobry {
+position: absolute;
+width: 24.5%;
+height: 28px;
+left: 15%;
+top: 181px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 22px;
+line-height: 28px;
+margin: 0px 0px 34px 0px;
+text-align: justify;
+
+color: #FDD817;
+}
+
+/* Якщо у вас виникли запитання про нашу програму чи організацію або про те, як ви можете нам допомогти, будь ласка, зв’яжіться з нами! */
+#Yaksho {
+position: absolute;
+width: 32%;
+height: 108px;
+left: 54%;
+top: 101px;
+margin: 0px 0px 34px 0px;
+
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 28px;
+line-height: 36px;
+text-align: justify;
+
+color: #FFFFFF;
+}
